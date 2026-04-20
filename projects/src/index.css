@@ -1,0 +1,101 @@
+*{
+  /* background-color: black; */
+  color: black;
+}
+
+.parent{
+  background-color: white;
+  gap: 10px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body{
+ padding: 5px;
+ background-color: black;
+ /* flex-wrap: wrap; */
+}
+
+.mid h3{
+  font-weight: 700;
+  font-size: 25px;
+}
+.mid h3 span{
+  font-size: 15px;
+  color: grey;
+}
+.card{
+  height: 300px;
+  width: 240px;
+  border: 2px solid ;
+  border-radius: 30px;
+  /* display: flex; */
+  flex-direction: row;
+  background-color: white;
+  border-color: black;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.card img {
+  width: 40px;
+height: 40px;
+border-radius: 50%;
+
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 10px;
+  gap: 3px;
+  background-color: transparent;
+  color: #b1b1b1;
+}
+
+.card .job-type{
+  display: flex;
+  gap :30px;
+ 
+}
+
+.card .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #2a0303;
+  padding-top: 10px;
+}
+
+.bottom button{
+  background-color: black;
+  color: white;
+  align-items: center;
+  border: none;
+  padding: 4px 8px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.card .job-type div{
+  background-color:lightgrey;
+  font-size: 15px;
+  font-weight: 500;
+  border: #120f0f;
+  /* border-radius: 5px; */
+}
+
+.bottom h3{
+  font-weight: 600;
+  font-size: 20px;
+}
